@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -77,23 +77,23 @@ namespace ConsoleApplication15
         {
             List<Commander> commanders = new List<Commander>();
 
-            commanders.Add(new Commander("Silas Renn, Seeker Adept", "http://mythicspoiler.com/c16/cards/silasrennseekeradept.jpg", "UB"));
-            commanders.Add(new Commander("Vial Smasher the Fierce", "http://mythicspoiler.com/c16/cards/vialsmasherthefierce.jpg", "BR"));
-            commanders.Add(new Commander("Tana, the Bloodsower", "http://mythicspoiler.com/c16/cards/tanathebloodsower.jpg", "RG"));
-            commanders.Add(new Commander("Sidar Kondo of Jamuraa", "http://mythicspoiler.com/c16/cards/sidarkondoofjamuraa.jpg", "WG"));
-            commanders.Add(new Commander("Ishai, Ojutai Dragonspeaker", "http://mythicspoiler.com/c16/cards/ishaiojutaidragonspeaker.jpg", "WU"));
+            commanders.Add(new Commander("Silas Renn, Seeker Adept", "http://media.wizards.com/2016/bn8f9t2zc_C16/5v6Wl8sqIA_EN.png", "UB"));
+            commanders.Add(new Commander("Vial Smasher the Fierce", "http://media.wizards.com/2016/bn8f9t2zc_C16/Jp61LNyYcG_EN.png", "BR"));
+            commanders.Add(new Commander("Tana, the Bloodsower", "http://media.wizards.com/2016/bn8f9t2zc_C16/p5YwarGCXG_EN.png", "RG"));
+            commanders.Add(new Commander("Sidar Kondo of Jamuraa", "http://media.wizards.com/2016/bn8f9t2zc_C16/zP2tJ6yQY4_EN.png", "WG"));
+            commanders.Add(new Commander("Ishai, Ojutai Dragonspeaker", "http://media.wizards.com/2016/bn8f9t2zc_C16/F7PzdpUoNu_EN.png", "WU"));
 
-            commanders.Add(new Commander("Bruse Tarl, Boorish Herder", "http://mythicspoiler.com/c16/cards/brusetarlboorishherder.jpg", "WR"));
-            commanders.Add(new Commander("Kydele, Chosen of Kruphix", "http://mythicspoiler.com/c16/cards/kydelechosenofkruphix.jpg", "UG"));
-            commanders.Add(new Commander("Ravos, Soultender", "http://mythicspoiler.com/c16/cards/ravossoultender.jpg", "WB"));
-            commanders.Add(new Commander("Ludevic, Necro-Alchemist", "http://mythicspoiler.com/c16/cards/ludevicnecroalchemist.jpg", "UR"));
+            commanders.Add(new Commander("Bruse Tarl, Boorish Herder", "http://media.wizards.com/2016/bn8f9t2zc_C16/nqeWaa1SYR_EN.png", "WR"));
+            commanders.Add(new Commander("Kydele, Chosen of Kruphix", "http://media.wizards.com/2016/bn8f9t2zc_C16/gZuQnmGfNc_EN.png", "UG"));
+            commanders.Add(new Commander("Ravos, Soultender", "http://media.wizards.com/2016/bn8f9t2zc_C16/r5HXWBE3O6_EN.png", "WB"));
+            commanders.Add(new Commander("Ludevic, Necro-Alchemist", "http://media.wizards.com/2016/bn8f9t2zc_C16/ruX19neusP_EN.png", "UR"));
             commanders.Add(new Commander("Ikra Shidiqi, the Usurper", "http://mythicspoiler.com/c16/cards/ikrashidiqitheusurper.jpg", "BG"));
 
-            commanders.Add(new Commander("Akiri, Rope Thrower", "http://mythicspoiler.com/c16/cards/akiriropethrower.jpg", "WR"));
+            commanders.Add(new Commander("Akiri, Line-Slinger", "http://media.wizards.com/2016/bn8f9t2zc_C16/v7XInwXkJ0_EN.png", "WR"));
             commanders.Add(new Commander("Thrasios, Triton Hero", "http://mythicspoiler.com/c16/cards/thrasiostritonhero.jpg", "UG"));
-            commanders.Add(new Commander("Tymna the Weaver", "http://mythicspoiler.com/c16/cards/tymnatheweaver.jpg", "WB"));
-            commanders.Add(new Commander("Kraum, Ludevic's Opus", "http://mythicspoiler.com/c16/cards/kraumludevicsopus.jpg", "UR"));
-            commanders.Add(new Commander("Reyhan, Last of the Abzan", "http://mythicspoiler.com/c16/cards/reyhanlastoftheabzan.jpg", "BG"));
+            commanders.Add(new Commander("Tymna the Weaver", "http://media.wizards.com/2016/bn8f9t2zc_C16/fqrzf8G9Zb_EN.png", "WB"));
+            commanders.Add(new Commander("Kraum, Ludevic's Opus", "http://media.wizards.com/2016/bn8f9t2zc_C16/BLpJjx7H7i_EN.png", "UR"));
+            commanders.Add(new Commander("Reyhan, Last of the Abzan", "http://media.wizards.com/2016/bn8f9t2zc_C16/N7eJSqqNPP_EN.png", "BG"));
 
             return (commanders);
         }
