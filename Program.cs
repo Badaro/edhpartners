@@ -29,13 +29,16 @@ namespace EdhPartners
 
                 foreach(CommanderPair pair in pairs.Where(p => p.ColorIdentity.ToString()==colorCombination))
                 {
-                    output.Append("<h4>" + pair.Item1.Name + " &amp; " + pair.Item2.Name + "</h4>");
+                    output.AppendLine("<h4>" + pair.Item1.Name + " &amp; " + pair.Item2.Name + "</h4>");
 
                     output.AppendLine("<div>");
                     output.Append("<img src=\"" + pair.Item1.Image + "\" title=\"" + pair.Item1.Name + "\"/>");
+                    output.Append("&nbsp;");
                     output.Append("<img src=\"" + pair.Item2.Image + "\" title=\"" + pair.Item2.Name + "\"/>");
                     output.AppendLine("</div>");
                 }
+
+                output.AppendLine("<hr />");
             }
 
             output.AppendLine("<body>");
