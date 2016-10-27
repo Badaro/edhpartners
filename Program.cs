@@ -11,8 +11,8 @@ namespace EdhPartners
     {
         static void Main(string[] args)
         {
-            IEnumerable<CommanderPair> pairs = GetCommanderPairs(GetCommanders());
-            string[] colorCombinations = pairs.Select(p => p.ColorIdentity.ToString()).Distinct().OrderBy(c => c.Length).ToArray();
+            IEnumerable<CommanderPair> pairs = GetCommanderPairs(GetCommanders()).OrderBy(p => p.ColorIdentity.GetOrderCode()).ToArray();
+            string[] colorCombinations = pairs.Select(p => p.ColorIdentity.ToString()).Distinct().ToArray();
 
             StringBuilder output = new StringBuilder();
 
@@ -184,6 +184,19 @@ namespace EdhPartners
                 R = this.R || secondIdentity.R,
                 G = this.G || secondIdentity.G
             };
+        }
+
+        public int GetOrderCode()
+        {
+            string result = "";
+
+            if (this.W) result += "1";
+            if (this.U) result += "2";
+            if (this.B) result += "3";
+            if (this.R) result += "4";
+            if (this.G) result += "5";
+
+            return Int32.Parse(result);
         }
 
         public override string ToString()
