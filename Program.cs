@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication15
+namespace EdhPartners
 {
     class Program
     {
@@ -42,7 +42,15 @@ namespace ConsoleApplication15
             output.AppendLine("<body>");
             output.AppendLine("</html>");
 
-            File.WriteAllText("partners.html", output.ToString());
+            string filename = "partners.html";
+            if (File.Exists(filename)) File.Delete(filename);
+            File.WriteAllText(filename, output.ToString());
+            OpenExplorer(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filename));
+        }
+
+        public static void OpenExplorer(string filename)
+        {
+            System.Diagnostics.Process.Start("explorer.exe", "/select, \"" + filename + "\"");
         }
 
         public static IEnumerable<CommanderPair> GetCommanderPairs(IEnumerable<Commander> commanders)
