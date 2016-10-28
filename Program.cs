@@ -97,10 +97,10 @@ namespace EdhPartners
             commanders.Add(new Commander("Kydele, Chosen of Kruphix", "http://media.wizards.com/2016/bn8f9t2zc_C16/gZuQnmGfNc_EN.png", "UG"));
             commanders.Add(new Commander("Ravos, Soultender", "http://media.wizards.com/2016/bn8f9t2zc_C16/r5HXWBE3O6_EN.png", "WB"));
             commanders.Add(new Commander("Ludevic, Necro-Alchemist", "http://media.wizards.com/2016/bn8f9t2zc_C16/ruX19neusP_EN.png", "UR"));
-            commanders.Add(new Commander("Ikra Shidiqi, the Usurper", "http://mythicspoiler.com/c16/cards/ikrashidiqitheusurper.jpg", "BG"));
+            commanders.Add(new Commander("Ikra Shidiqi, the Usurper", "http://media.wizards.com/2016/bn8f9t2zc_C16/8iirWIrXu5_EN.png", "BG"));
 
             commanders.Add(new Commander("Akiri, Line-Slinger", "http://media.wizards.com/2016/bn8f9t2zc_C16/v7XInwXkJ0_EN.png", "WR"));
-            commanders.Add(new Commander("Thrasios, Triton Hero", "http://mythicspoiler.com/c16/cards/thrasiostritonhero.jpg", "UG"));
+            commanders.Add(new Commander("Thrasios, Triton Hero", "http://media.wizards.com/2016/bn8f9t2zc_C16/hFa1VZjFdf_EN.png", "UG"));
             commanders.Add(new Commander("Tymna the Weaver", "http://media.wizards.com/2016/bn8f9t2zc_C16/fqrzf8G9Zb_EN.png", "WB"));
             commanders.Add(new Commander("Kraum, Ludevic's Opus", "http://media.wizards.com/2016/bn8f9t2zc_C16/BLpJjx7H7i_EN.png", "UR"));
             commanders.Add(new Commander("Reyhan, Last of the Abzan", "http://media.wizards.com/2016/bn8f9t2zc_C16/N7eJSqqNPP_EN.png", "BG"));
